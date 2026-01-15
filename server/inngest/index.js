@@ -1,7 +1,7 @@
 import { Inngest } from "inngest";
 
 // Import Prisma client instance
-// import prisma from "../config/prisma";
+import prisma from "./config/prisma.js";
 
 // Create a client to send and receive events
 export const inngest = new Inngest({ id: "fusion" });
